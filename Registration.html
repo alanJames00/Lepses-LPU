@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css" rel="stylesheet">
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+    
+</head>
+<body>
+    <div class="return-home">
+        <a href="index.html" class="Back"> <button><i class="fa-sharp fa-solid fa-left-long"></i>  Return Home</button></a>
+        
+    </div>
+    <div class="container-1">
+        <div class="title">Registration</div>
+        <div class="title"><span class="price">₹499</span> Free</div>
+        <form action="#">
+        <div class="user-deatils">
+            <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter Your Name" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Registration_No</span>
+                <input type="text" placeholder="Enter Your Registration No" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter Your Email Address" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Contact no</span>
+                <input type="text" placeholder="Enter Your Contact_no" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Select Event</span>
+            <select name="registration"
+             class="select-el">
+                <option value="" disable selected>Select The Event --</option>
+                <option value="Hackathon">Hackathon</option>
+                <option value="Web-Dev">Web -Dev Seminar</option>
+                <option value="Data_science">Data Science Seminar</option>
+                <option value="Cyber-Security">Cyber Security Seminar</option>
+                <option value="Cloud computing">Cloud Computing Seminar</option>
+                <option value="Block-Chain">Block Chain</option>
+                <option value="Other">Other</option>
+            </select>
+            </div>
+            <div class="input-box">
+                <span class="details">Section</span>
+                <input type="text" placeholder="Enter Your Section" required>
+            </div>
+        </div>
+        <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+                <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Male</span>
+                </label>
+                <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Female</span>
+                </label>
+                <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Prefer not to say</span>
+                </label>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" value="Registration">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
